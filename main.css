@@ -1,0 +1,41 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1204px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.item > img{
+    width: 100px;
+    height: 100px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    padding: 40px;
+    margin-top: 50px;
+    list-style: none;
+
+}
+.item{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid yellow;
+}
